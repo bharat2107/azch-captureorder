@@ -3,11 +3,11 @@ kind: Deployment
 metadata:
   name: captureorder
 spec:
-  progressDeadlineSeconds: 6000
+  progressDeadlineSeconds: 600
   selector:
       matchLabels:
         app: captureorder
-  replicas: 2
+  replicas: 1
   template:
       metadata:
         labels:
