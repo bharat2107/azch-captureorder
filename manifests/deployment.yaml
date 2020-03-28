@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: captureorder
 spec:
-progressDeadlineSeconds: 6000
+  progressDeadlineSeconds: 6000
   selector:
       matchLabels:
         app: captureorder
